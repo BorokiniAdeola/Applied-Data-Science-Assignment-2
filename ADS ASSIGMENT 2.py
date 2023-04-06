@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 """
-Creating a def function to read in our datasets and returns  two 
+producing a def function to read in our datasets and returns  two 
 dataframes:one with years as columns, the other with nations
 """
 
@@ -71,7 +71,7 @@ climate_data
 
 """
 For this analysis, 7 countries of choice across various continents
-will be picked 
+will be selected
 """
 # Selecting countries for analysis
 countries= climate_data[['China', 'Nigeria', 'India','Philippines','United States', 'Germany','Brazil']]
